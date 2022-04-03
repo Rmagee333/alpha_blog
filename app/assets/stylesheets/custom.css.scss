@@ -1,5 +1,46 @@
 @import'bootstrap/dist/css/bootstrap';
 
 .navbar {
-  background-color: aqua !important;
+  background-color: black !important;
 }
+
+.nav-link {
+  color: white !important
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
+  background-color: lightgray;
+}
+
+#jumbo {
+  background-image: asset-url('writing-copy.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+  color: red;
+  background-color: lightgray;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: lightgray;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+
