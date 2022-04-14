@@ -21,6 +21,20 @@
   margin-top: 25px;
   background-color: lightgray;
 }
+#signup {
+  
+  margin-top: 10px;
+  background-color: navy;
+  margin-bottom: 150px;
+  margin-left: 55px ;
+  margin-right: 10px;
+  text-align: center;
+}
+
+#submit {
+  margin-left: 550px;
+  text-align: center;
+}
 
 #jumbo {
   background-image: asset-url('writing-copy.jpg');
@@ -29,18 +43,18 @@
   background-size: cover;
   height: 425px;
   color: red;
-  background-color: lightgray;
+  background-color: lightgrey;
 }
 
 html,
 body {
   height: 100%;
-  background-color: lightgray;
+  background-color: lightgrey;
 }
 
 #page-content {
   flex: 1 0 auto;
-  background-color: lightgrey;
+  background-color: lightgray;
 }
 
 .card-title 
