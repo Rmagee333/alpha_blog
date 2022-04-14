@@ -6,7 +6,8 @@
     </button>
     <%= link_to "Bloggers", users_path, class: "btn btn-outline-success" %>
     <%= link_to "View", articles_path, class: "btn btn-outline-success" %>
-  <% if logged_in? %>
+  
+    <% if logged_in? %>
     <li class="nav-item">
       <%= link_to "Log out", logout_path, class: "btn btn-outline-success", method: :destory %>
     </li>
