@@ -8,13 +8,14 @@
     <%= link_to "View", articles_path, class: "btn btn-outline-success" %>
   
     <% if logged_in? %>
-    <li class="nav-item">
-      <%= link_to "Log out", logout_path, class: "btn btn-outline-success", method: :destory %>
+    <li class="nav-item"> 
+      <%= link_to "Log out", logout_path, class: "btn btn-outline-success", method: :destroy %>
     </li>
     <li class="nav-item">
       <%= link_to current_user.username, user_path(current_user), class: "btn btn-outline-success" %>
     </li>
-  <% else %>
+    <%= button_to "Delete your profile", user_path(current_user), class: "btn btn-outline-success text-danger", method: :delete, onclick: "return confirm('Are you sure?')" %>
+    <% else %>
     <li class="nav-item">
       <%= link_to "Login", login_path, class: "btn btn-outline-success" %>
     </li>
